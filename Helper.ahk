@@ -1,7 +1,10 @@
 ﻿URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/keys/main/fisher.txt, %A_Temp%\d3d91.txt
 URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/keys/main/miner.txt, %A_Temp%\d3d92.txt
 URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/keys/main/zavod.txt, %A_Temp%\d3d93.txt
-URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/keys/main/run.txt, %A_Temp%\d3d94.txt
+URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/keys/main/fsin.txt, %A_Temp%\d3d94.txt
+URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/keys/main/fix.txt, %A_Temp%\d3d95.txt
+URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/keys/main/sport.txt, %A_Temp%\d3d96.txt
+URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/keys/main/sporttp.txt, %A_Temp%\d3d97.txt
 
 CheckKeyStatus(filePath, statusControl, dateControl) {
     ; Получаем ключ с ПК
@@ -50,7 +53,7 @@ CheckKeyStatus(filePath, statusControl, dateControl) {
     else
     {
         status := "Не активирован"
-        date := "нет ключа на сервере"
+        date := "Нет ключа на сервере"
         GuiControl, +cRed, %statusControl%
     }
 
