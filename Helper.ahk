@@ -1,13 +1,13 @@
 ﻿
 
 CheckKeyStatus(filePath, statusControl, dateControl) {
-    URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/keys/main/fisher.txt, %A_Temp%\d3d91.txt
-    URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/keys/main/miner.txt, %A_Temp%\d3d92.txt
-    URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/keys/main/zavod.txt, %A_Temp%\d3d93.txt
-    URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/keys/main/fsin.txt, %A_Temp%\d3d94.txt
-    URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/keys/main/fix.txt, %A_Temp%\d3d95.txt
-    URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/keys/main/sport.txt, %A_Temp%\d3d96.txt
-    URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/keys/main/sporttp.txt, %A_Temp%\d3d97.txt
+    URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/onlykeys/main/fisher.txt, %A_Temp%\d3d91.txt
+    URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/onlykeys/main/miner.txt, %A_Temp%\d3d92.txt
+    URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/onlykeys/main/zavod.txt, %A_Temp%\d3d93.txt
+    URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/onlykeys/main/fsin.txt, %A_Temp%\d3d94.txt
+    URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/onlykeys/main/fix.txt, %A_Temp%\d3d95.txt
+    URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/onlykeys/main/sport.txt, %A_Temp%\d3d96.txt
+    URLDownloadToFile, https://raw.githubusercontent.com/KituhasWHCS/onlykeys/main/sporttp.txt, %A_Temp%\d3d97.txt
     ; Получаем ключ с ПК
     strComputer := "."
     objWMIService := ComObjGet("winmgmts:{impersonationLevel=impersonate}!\\" . strComputer . "\root\cimv2")
